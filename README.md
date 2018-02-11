@@ -7,8 +7,12 @@ connected components are uniquely labeled based on a given heuristic.
 
 Connected-component labeling is used in computer vision to detect
 connected regions in binary digital images, although color images and data
-with higher dimensionality can also be processed. When integrated into an
-connected component labeling can operate on a variety of information. B
+with higher dimensionality can also be processed.
+
+For example, in problems where we have images like these -
+![Alt text](http://members.cbio.mines-paristech.fr/~nvaroquaux/formations/scipy-lecture-notes/_images/plot_synthetic_data_1.png "Images with connected regions")
+
+When integrated into an connected component labeling can operate on a variety of information. B
 image recognition system or human-computer interaction interface,lob
 extraction is generally performed on the resulting binary image from a
 thresholding step.
